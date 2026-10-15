@@ -1,8 +1,8 @@
-public class CarroCompra extends Calculadora {
+public class CarroCompra{
 
 	private int[][] productos= new int[2][5];
 
-	public void CarroCompra() {
+	public  CarroCompra() {
 		for (int i=0; i<5; i++) {
 			productos[0][i] = 1;
 			productos[1][i] = 1000;
